@@ -1,0 +1,11 @@
+<form (ngSubmit)="addMessage()">
+    <label class="form-label">Ingrese un mensaje</label>
+    <input type="text" class="form-control" name="message" placeholder="Ingrese un msj" [(ngModel)]="message">
+    <button class="btn btn-primary mt-4 mb-4">Agregar</button>
+</form>
+
+<br>
+{{message}}
+<br>
+
+
